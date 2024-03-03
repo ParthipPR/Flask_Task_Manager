@@ -76,6 +76,7 @@ form {
     background-color: #64b5f6; /* Blue color for Update */
 }
 .input-group form {
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
