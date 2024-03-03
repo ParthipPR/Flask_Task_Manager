@@ -47,26 +47,31 @@ form {
     margin-bottom: 20px;
 }
 
-input[type="text"], input[type="submit"], .action-button {
-    font-size: 16px;
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
 .input-group {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.input-group .action-button {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
+.input-group .action-link {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
 }
 
-.input-group .action-button:hover {
-    background-color: #45a049;
+.input-group .action-link:hover {
+    background-color: #f2f2f2;
+}
+
+.input-group .delete-link {
+    color: #fff;
+    background-color: #e57373; /* Red color for Delete */
+}
+
+.input-group .update-link {
+    color: #fff;
+    background-color: #64b5f6; /* Blue color for Update */
 }

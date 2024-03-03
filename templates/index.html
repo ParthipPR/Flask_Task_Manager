@@ -22,9 +22,11 @@
                 <td>{{ task.content }}</td>
                 <td>{{ task.date_created.date() }}</td>
                 <td>
-                    <a href="/delete/{{task.id}}">Delete</a>
-                    <br>
-                    <a href="/update/{{task.id}}">Update</a>
+                    <div class="input-group">
+                        <a href="/delete/{{task.id}}" class="action-link delete-link">Delete</a>
+                        <br>
+                        <a href="/update/{{task.id}}" class="action-link update-link">Update</a>
+                    </div>
                 </td>
             </tr>
         {% endfor %}
