@@ -75,3 +75,21 @@ form {
     color: #fff;
     background-color: #64b5f6; /* Blue color for Update */
 }
+.input-group form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-group .add-task-button {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.input-group .add-task-button:hover {
+    background-color: #45a049;
+}
